@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/apiKey"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="API Key"/>
+
+    <EditText
+        android:id="@+id/collectionName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Collection Name" />
+
+    <EditText
+        android:id="@+id/sheetID"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="Sheet ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sheetRange"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Range (Format : Sheet1!A1:P16)" />
+
+    <Button
+        android:id="@+id/pushData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="push data" />
+
+
+
+</android.widget.LinearLayout>

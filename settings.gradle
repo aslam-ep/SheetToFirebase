@@ -1,0 +1,2 @@
+rootProject.name='SheetToFirebase'
+include ':app'
